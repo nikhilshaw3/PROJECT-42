@@ -35,7 +35,7 @@ function draw() {
   push();
   rotate(minAngle);
   strokeWeight(10);
-  stroke("yellow");
+  stroke("lightgreen");
   line(0,0,75,0);
   pop();
 
