@@ -35,7 +35,7 @@ function draw() {
   push();
   rotate(minAngle);
   strokeWeight(10);
-  stroke("lightgreen");
+  stroke("green");
   line(0,0,75,0);
   pop();
 
@@ -56,7 +56,7 @@ arc(0,0,300,300,0,secAngle);
 //drawing minArc
 strokeWeight(10);
 noFill();
-stroke("yellow");
+stroke("green");
 arc(0,0,270,270,0,minAngle);
 
 //drawing hrArc
